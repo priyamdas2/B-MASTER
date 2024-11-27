@@ -1,0 +1,2 @@
+Error in solve.default(t(X.c) %*% X.c) : 
+  system is computationally singular: reciprocal condition number = 4.502e-19
