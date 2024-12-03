@@ -1,7 +1,7 @@
 %% Tuning parameters
 RandSeed = 1;      % randon generator seed
 NumIter = 100;     % number of mcmc iterations, 100 works fine, 1000 recommeneded.
-BurnIn = 100;      % burnin
+BurnIn = 10;       % burnin
 conf = 0.90;       % sparsity cut-off
 trainProp = 0.8;   % training proportion
 
