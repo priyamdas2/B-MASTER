@@ -1,3 +1,5 @@
+Refer to 'BMASTER_reproducibility_instructions.pdf' for reproducibility instructions.
+
 Folder:
 
 1) 'Simulation Study 1': Real data like simulation study (Section 4.1 in paper)
