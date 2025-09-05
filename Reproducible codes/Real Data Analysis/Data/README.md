@@ -1,7 +1,7 @@
 # Description
 
-- The raw data processing and exploratory analyses, plots and corresponding reproducible codes are provided within `Yachida_BMASTER` folder. 
-- The refined and extracted dataset for fitting B-MASTER analyses, are shared in tghis folder.
+- The raw data processing, exploratory analyses, plots, and corresponding reproducible code are provided in the `Yachida_BMASTER` folder. 
+- The refined and extracted dataset used for fitting the B-MASTER analyses is shared in this folder.
 
 
 (i) `X`: Microbiome; `X_names`: corresponding names.
