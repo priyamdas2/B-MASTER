@@ -67,7 +67,7 @@ To reproduce the tables and figures presented in the paper, please refer to `BMA
 ---
 ### 🕒 Approximate Computation Time
 
-Running B-MASTER for 1,000 iterations (sufficient for posterior sample–based inference) on a dataset with dimensions P = 287, Q = 249, and N = 220—matching the case study data—takes approximately **100–120 minutes** to complete. This benchmark was obtained on a **Windows 10 Enterprise** system with **32 GB RAM** and a **12th Gen Intel(R) Core(TM) i7-12700** processor (12 cores, 20 logical threads, 2.10 GHz base frequency).
+Running B-MASTER for 1,000 iterations (sufficient for posterior sample–based inference) on a dataset with dimensions P = 287, Q = 249, and N = 220 -- matching the case study data -- takes approximately **100–120 minutes** to complete. This benchmark was obtained on a **Windows 10 Enterprise** system with **32 GB RAM** and a **12th Gen Intel(R) Core(TM) i7-12700** processor (12 cores, 20 logical threads, 2.10 GHz base frequency).
 
 ---
 
@@ -78,7 +78,7 @@ Running B-MASTER for 1,000 iterations (sufficient for posterior sample–based i
 All major figures and visual outputs from the manuscript are available under the `images/` directory. Representative visuals include:
 
 ### Microbiome-Metabolite interplay in Colorectal Cancer
-![Microbiome-Metabolite interplay](images/Microbiome_metabolite_diagram.png)
+![Microbiome-Metabolite interplay](images/Microbiome_metabolite_diagram.jpg)
 
 This schematic illustrates how gut microbial activity influences metabolite production, which in turn may affect colorectal cancer progression.
 
@@ -88,7 +88,7 @@ This schematic illustrates how gut microbial activity influences metabolite prod
 This describes the overview of the colorectal cancer microbiome-metabolome dataset characteristics and processing steps.
 
 ### B-MASTER concept diagram
-![B-MASTER concept](images/BMASTER_concept.png)
+![B-MASTER concept](images/BMASTER_concept.jpg)
 
 This diagram visually depicts `master predictors'.
 
