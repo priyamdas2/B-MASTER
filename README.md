@@ -98,7 +98,7 @@ This diagram visually depicts `master predictors'.
 This diagram highlights the scalability and performance of B-MASTER in higher dimensions compared to remMap.
 
 ### Top 50 FIS-based Master Predictors
-![Top 50 master predictors](images/FIS_top50_wide.png)
+![Top 50 master predictors](images/FIS_top50_wide.jpg)
 
 Functional Influence Scores (FIS) for the top 50 genera identified by B-MASTER. Bar height reflects each genus’s FIS; the numbers above the bars indicate, for that genus, the number of metabolites it influences.
 
@@ -106,13 +106,11 @@ Functional Influence Scores (FIS) for the top 50 genera identified by B-MASTER. 
 ![Heatmap](images/Top50genera_heat_FIS.jpeg)
 
 This demonstrates Heatmap illustrating the direction of the impact for each of the identified top 50 master predictors on each metabolite.
----
 
 ### Master set of Genera Regulating Most Abundant Metabolites (Subset 1)
 ![Heatmap](images/Subset_1.png)
 
 The plot demonstrates the direction and statistical significance of the relationships between the most abundant metabolites (Subset 1) on the corresponding top 15 key genera identified in the analysis. Progressively larger circles are associated with smaller Bayesian p-values.
----
 
 ### Master set of Genera Regulating Differentially Abundant Metabolites in CRC (Subset 2)
 ![Heatmap](images/Subset_2.png)
