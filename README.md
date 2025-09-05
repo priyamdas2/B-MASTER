@@ -85,12 +85,12 @@ This schematic illustrates how gut microbial activity influences metabolite prod
 ### Data Processing and Exploratory Analysis
 ![Data processing](images/BMASTER_case_study_collage.jpg)
 
-This describes the overview of the colorectal cancer microbiome-metabolome dataset characteristics and processing steps.
+This figure provides an overview of the colorectal cancer microbiome-metabolome dataset characteristics and processing steps.
 
 ### B-MASTER Concept Diagram
 ![B-MASTER concept](images/BMASTER_concept.jpg)
 
-This diagram visually depicts `master predictors'.
+This diagram visually depicts *master predictors*.
 
 ### B-MASTER Scalability
 ![B-MASTER scalability](images/Comp_times.png)
@@ -102,10 +102,10 @@ This diagram highlights the scalability and performance of B-MASTER in higher di
 
 Functional Influence Scores (FIS) for the top 50 genera identified by B-MASTER. Bar height reflects each genus’s FIS; the numbers above the bars indicate, for that genus, the number of metabolites it influences.
 
-### Top 50 FIS-based Master Predictors
+### Heatmap of Top 50 Master Predictors
 ![Heatmap](images/Top50genera_heat_FIS.jpeg)
 
-This demonstrates Heatmap illustrating the direction of the impact for each of the identified top 50 master predictors on each metabolite.
+This heatmap illustrates the direction of the impact for each of the identified top 50 master predictors on each metabolite.
 
 ### Master set of Genera Regulating Most Abundant Metabolites (Subset 1)
 ![Heatmap](images/Subset_1.png)
@@ -116,6 +116,7 @@ The plot demonstrates the direction and statistical significance of the relation
 ![Heatmap](images/Subset_2.png)
 
 The plot demonstrates the direction and statistical significance of the relationships between the metabolites identified as differentially abundant in the cancer versus control comparison (Subset 2) and the top 15 key genera identified in the analysis.
+
 ---
 
 ## 🔐 Data Access
