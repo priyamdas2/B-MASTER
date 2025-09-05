@@ -1,6 +1,7 @@
 # B-MASTER
 
 **Paper Title:**  B-MASTER: Scalable Bayesian Multivariate Regression for Master Predictor Discovery in Colorectal Cancer Microbiome-Metabolite Profiles 
+📄 [Read the full paper on arXiv](https://arxiv.org/abs/2412.05998v2)
 
 This repository provides the necessary code and documentation for reproducing the results presented in the article above. It implements the **B-MASTER** model for Master Predictor Discovery in Colorectal Cancer Microbiome-Metabolite Profiles.
 
@@ -32,5 +33,21 @@ The manuscript introduces:
 | `Reproducible codes/BMASTER_reproducibility_instructions.pdf` | Full reproduction instructions |
 | `B-MASTER Demo` | A demonstration of B-MASTER |
 | `images/` | Final versions of key figures used in the manuscript |
+
+---
+
+## 🧮 Figures and Tables in the Paper
+
+To reproduce the tables and figures presented in the paper, please refer to `BMASTER_reproducibility_instructions.pdf`. A brief overview is provided below.
+
+
+| Output        | Description                                | Script Path                            |
+|---------------|--------------------------------------------|----------------------------------------|
+| **Figure 1**  | Sankey diagrams of treatment sequences     | `Real Data Analysis/Real Data/exploratory_analysis.R` |
+| **Figures 5,6a** | Estimated transition probabilities (SMART-MC) | `Real Data Analysis/SMART_MC_Var_effect_plot.R` |
+| **Figure 6b** | Odds ratios for across-treatment transitions | `Real Data Analysis/SMART_MC_ODDS_ratio_calculation.m` → `SMART_MC_Odds_ratio_plot.R` |
+| **Table 1, S1**, **Figure S1**   | MSCOR benchmark results                    | `MSCOR Benchmark/MSCOR_Benchmark_comparison.m` → `MSCOR_post_evaluation.m` |
+| **Tables S2–S5** | Simulation results                       | `Simulation Study/` (see details in `SMART_MC_Reproducibility_and_DEMO_instructions.pdf`)        |
+| **Table S6**, **Figure S2** | SMART-MC estimated coefficients; simulated treatment trajectory | `Real Data Analysis/SMART_MC_Real_data.m` |
 
 ---
