@@ -71,6 +71,29 @@ Running B-MASTER for 1,000 iterations (sufficient for posterior sample–based i
 
 ---
 
+---
+
+## 📊 Key Visual Summaries
+
+All major figures and visual outputs from the manuscript are available under the `images/` directory. Representative visuals include:
+
+### Microbiome-Metabolite interplay in Colorectal Cancer
+![Microbiome-Metabolite interplay](images/Microbiome_metabolite_diagram.png)
+
+This schematic illustrates how gut microbial activity influences metabolite production, which in turn may affect colorectal cancer progression.
+
+### Data processing
+![Data processing](images/BMASTER_case_study_collage.jpg)
+
+This describes the overview of the colorectal cancer microbiome-metabolome dataset characteristics and processing steps.
+
+### B-MASTER concept diagram
+![B-MASTER concept](images/BMASTER_concept.png)
+
+This diagram visually depicts `master predictors'.
+
+---
+
 ## 🔐 Data Access
 
 Dataset is shared at `Reproducible codes/Real Data Analysis/Data/Yachida_BMASTER/`.
