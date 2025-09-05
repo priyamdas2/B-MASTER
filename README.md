@@ -65,3 +65,8 @@ To reproduce the tables and figures presented in the paper, please refer to `BMA
   - `corrplot`, `readxl`, `BiocManager`, `Bioconductor`, `tidyr`, `stringr`, `scales`, `ggpattern`, `cowplot`, `grid`, `ggplot2`, `dplyr`, `tidyr`, `readr`, `patchwork`, `RColorBrewer`, `ggalluvial`, `reshape2`, `purrr`
 
 ---
+### 🕒 Approximate Computation Time
+
+Running B-MASTER for 1,000 iterations (sufficient for posterior sample–based inference) on a dataset with dimensions P = 287, Q = 249, and N = 220—matching the case study data—takes approximately **100–120 minutes** to complete. This benchmark was obtained on a **Windows 10 Enterprise** system with **32 GB RAM** and a **12th Gen Intel(R) Core(TM) i7-12700** processor (12 cores, 20 logical threads, 2.10 GHz base frequency).
+
+---
