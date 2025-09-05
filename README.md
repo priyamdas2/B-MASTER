@@ -1,8 +1,3 @@
-# B-MASTER Instructions
-- Go to 'B-MASTER Demo' for Demo.
-
-- Go to 'Reproducible codes' for reproducible codes corresponding to results depicted in B-MASTER article. Reproducubility instruction is also included within the folder.
-
 # B-MASTER
 
 **Paper Title:**  B-MASTER: Scalable Bayesian Multivariate Regression for Master Predictor Discovery in Colorectal Cancer Microbiome-Metabolite Profiles 
@@ -25,5 +20,17 @@ The manuscript introduces:
 - Applied to colorectal cancer data, **B-MASTER** identifies key microbial genera that regulate the overall metabolome profile. In addition, master predictors are investigated for two biologically relevant subsets of metabolites:  
   - The most abundant metabolites  
   - Metabolites differentially abundant in CRC  
+---
+
+## 📁 File Overview
+
+| Folder | Description |
+|--------|-------------|
+| `Reproducible codes/Real Data Analysis/` | Real data analysis scripts (Figures 2, 7-12; Table 2) |
+| `Reproducible codes/Simulation Study 1/` | Simulation experiments 1 (Figures 5; Table 1) |
+| `Reproducible codes/Simulation Study 2/` | Simulation experiments 2 (Figures 4,6) |
+| `Reproducible codes/BMASTER_reproducibility_instructions.pdf` | Full reproduction instructions |
+| `B-MASTER Demo` | A demonstration of B-MASTER |
+| `images/` | Final versions of key figures used in the manuscript |
 
 ---
