@@ -2,7 +2,7 @@
 
 **Paper Title:**  B-MASTER: Scalable Bayesian Multivariate Regression for Master Predictor Discovery in Colorectal Cancer Microbiome-Metabolite Profiles 
 
-📄 [Read the full paper on arXiv](https://arxiv.org/abs/2412.05998v2)
+📄 [Read the full paper on arXiv](https://arxiv.org/abs/2412.05998)
 
 This repository provides the necessary code and documentation for reproducing the results presented in the article above. It implements the **B-MASTER** model for Master Predictor Discovery in Colorectal Cancer Microbiome-Metabolite Profiles.
 
