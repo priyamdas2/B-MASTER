@@ -185,3 +185,25 @@ ggsave("Subset_1.png", plot = ggp, width = 12, height = 7, dpi = 400)
 write.table(sorted.relevance.indices, "MasterRanks_subset1.csv", sep = ',', 
             row.names = FALSE, col.names = FALSE)
 
+################################################################################
+### Saving p-values
+################################################################################
+## --- Save p-values (rounded to 3 decimals) ---
+pval_mat <- as.data.frame(round(X.selected.pvalues.set, 3))
+rownames(pval_mat) <- X.selected.names.set.modified
+colnames(pval_mat) <- subset.names
+write.csv(pval_mat, "Selected_pvalues_subset1.csv", row.names = TRUE)
+
+## --- Save coefficient directions from NON-SPARSE means ---
+##     (so colors match the plot). Threshold tiny magnitudes and mask non-significant cells.
+thr <- 1e-4
+sign_raw <- sign(X.selected.coeffs.NonSparse.set)
+sign_raw[abs(X.selected.coeffs.NonSparse.set) <= thr] <- 0
+
+## Mask signs where p-value is NA (i.e., p > 0.05 in your earlier filtering)
+sign_raw[is.na(X.selected.pvalues.set)] <- NA
+
+sign_mat <- as.data.frame(sign_raw)
+rownames(sign_mat) <- X.selected.names.set.modified
+colnames(sign_mat) <- subset.names
+write.csv(sign_mat, "Selected_signs_subset1.csv", row.names = TRUE)
