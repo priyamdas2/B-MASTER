@@ -56,3 +56,12 @@ To reproduce the tables and figures presented in the paper, please refer to `BMA
 
 
 ---
+
+## 📦 Requirements
+
+- **R version**: 4.5.1  
+- **MATLAB**: R2021a or later  
+- **Required R packages**:
+  - `corrplot`, `readxl`, `BiocManager`, `Bioconductor`, `tidyr`, `stringr`, `scales`, `ggpattern`, `cowplot`, `grid`, `ggplot2`, `dplyr`, `tidyr`, `readr`, `patchwork`, `RColorBrewer`, `ggalluvial`, `reshape2`, `purrr`
+
+---
