@@ -44,11 +44,14 @@ To reproduce the tables and figures presented in the paper, please refer to `BMA
 
 | Output        | Description                                | Script Path                            |
 |---------------|--------------------------------------------|----------------------------------------|
-| **Figure 1**  | Sankey diagrams of treatment sequences     | `Real Data Analysis/Real Data/exploratory_analysis.R` |
-| **Figures 5,6a** | Estimated transition probabilities (SMART-MC) | `Real Data Analysis/SMART_MC_Var_effect_plot.R` |
-| **Figure 6b** | Odds ratios for across-treatment transitions | `Real Data Analysis/SMART_MC_ODDS_ratio_calculation.m` → `SMART_MC_Odds_ratio_plot.R` |
-| **Table 1, S1**, **Figure S1**   | MSCOR benchmark results                    | `MSCOR Benchmark/MSCOR_Benchmark_comparison.m` → `MSCOR_post_evaluation.m` |
-| **Tables S2–S5** | Simulation results                       | `Simulation Study/` (see details in `SMART_MC_Reproducibility_and_DEMO_instructions.pdf`)        |
-| **Table S6**, **Figure S2** | SMART-MC estimated coefficients; simulated treatment trajectory | `Real Data Analysis/SMART_MC_Real_data.m` |
+| **Figure 1**  | Influence of gut microbiome on metabolomics in CRC    | Concept diagram |
+| **Figure 2**  | Data extraction and exploration    | `Reproducible codes/Real Data Analysis/Data/Yachida_BMASTER/`|
+| **Figure 4, 6**  | B-MASTER scalability  | `Reproducible codes/Simulation Study 2/` |
+| **Figure 5**  | Main simulation study  | `Reproducible codes/Simulation Study 1/` |
+| **Figure 7**  | Score plots  | `Reproducible codes/Real Data Analysis/Data/Yachida_BMASTER/` |
+| **Figure 8-12**  | B-MASTER analysis of microbiome-metabolite interplay  | `Reproducible codes/Real Data Analysis/` |
+| **Tables 1** | Simulation results                       | `Reproducible codes/Simulation Study 1/` |
+| **Tables 2** | Out-of-sample prediction performance                       | `Reproducible codes/Real Data Analysis/Validation on real data/` |
+
 
 ---
