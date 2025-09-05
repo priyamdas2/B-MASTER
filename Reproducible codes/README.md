@@ -1,6 +1,6 @@
 # Instructions
 
-- Refer to 'BMASTER_reproducibility_instructions.pdf' for reproducibility instructions.
+- Refer to `BMASTER_reproducibility_instructions.pdf` for reproducibility instructions.
 
 # Folder descriptions:
 
@@ -9,6 +9,7 @@
 2. `Simulation Study 2`: Synthetic high-dimensional simulation study (Section 4.2 in B-MASTER main draft)
 
 3. `Real Data Analysis`: Real data analysis + out-of-sample validation (Sections 2 and 5 in B-MASTER main draft)
+
 
 
 
