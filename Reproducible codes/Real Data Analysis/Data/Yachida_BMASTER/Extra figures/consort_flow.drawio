@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
+  <diagram name="Page-1" id="ncKiU9deEvfXvw0UjhcI">
+    <mxGraphModel dx="1728" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EW07W5M0IZIe0kejNcW1-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Subjects with matched&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;microbiome + metabolomics&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;347&lt;/b&gt; subjects&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="130" y="160" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EW07W5M0IZIe0kejNcW1-2" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Excluded: 127 healthy controls&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Final cohort:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 18px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;220&lt;/b&gt; subjects&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="130" y="280" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EW07W5M0IZIe0kejNcW1-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=4;" parent="1" source="EW07W5M0IZIe0kejNcW1-1" target="EW07W5M0IZIe0kejNcW1-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="340" as="sourcePoint" />
+            <mxPoint x="510" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EW07W5M0IZIe0kejNcW1-5" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Subjects&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="110" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EW07W5M0IZIe0kejNcW1-7" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Genera (pre-filter): &lt;b&gt;11,942&lt;/b&gt;&lt;br&gt;(available for all 220 subjects)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#0072B2;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="480" y="160" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EW07W5M0IZIe0kejNcW1-9" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Genera (X)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="110" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EW07W5M0IZIe0kejNcW1-10" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;After prevalence ≥ 20%:&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;3,896&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#0072B2;" parent="1" vertex="1">
+          <mxGeometry x="480" y="280" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EW07W5M0IZIe0kejNcW1-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=4;" parent="1" target="EW07W5M0IZIe0kejNcW1-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="615" y="240" as="sourcePoint" />
+            <mxPoint x="860" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EW07W5M0IZIe0kejNcW1-12" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;After mean abundance ≥ 0.01%: Final X (CLR):&amp;nbsp;&lt;b&gt;287&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#0072B2;" parent="1" vertex="1">
+          <mxGeometry x="480" y="400" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EW07W5M0IZIe0kejNcW1-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=4;" parent="1" target="EW07W5M0IZIe0kejNcW1-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="615" y="360" as="sourcePoint" />
+            <mxPoint x="860" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EW07W5M0IZIe0kejNcW1-16" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Metabolites (pre-filter): &lt;b&gt;450&lt;/b&gt;&lt;br&gt;(available for all 220 subjects)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#D55E00;" parent="1" vertex="1">
+          <mxGeometry x="830" y="160" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EW07W5M0IZIe0kejNcW1-17" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Metabolites (Y)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="830" y="110" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EW07W5M0IZIe0kejNcW1-18" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;After prevalence ≥ 20%:&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Final Y (log):&lt;b&gt; 249&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#D55E00;" parent="1" vertex="1">
+          <mxGeometry x="830" y="280" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EW07W5M0IZIe0kejNcW1-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=4;" parent="1" target="EW07W5M0IZIe0kejNcW1-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="965" y="240" as="sourcePoint" />
+            <mxPoint x="1210" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
