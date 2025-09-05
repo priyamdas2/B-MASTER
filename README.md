@@ -129,5 +129,3 @@ Dataset is shared at `Reproducible codes/Real Data Analysis/Data/Yachida_BMASTER
 ## 💬 Contact
 
 For questions, please contact:  
-**Priyam Das**  
-[dasp4@vcu.edu](mailto:dasp4@vcu.edu)
