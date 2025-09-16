@@ -1,4 +1,5 @@
 # B-MASTER
+[Read the full material on arXiv](https://arxiv.org/abs/2412.05998)
 
 **Title:**  B-MASTER: Scalable Bayesian Multivariate Regression for Master Predictor Discovery in Colorectal Cancer Microbiome-Metabolite Profiles 
 
@@ -129,3 +130,6 @@ Dataset is shared at `Reproducible codes/Real Data Analysis/Data/Yachida_BMASTER
 ## 💬 Contact
 
 For questions, please contact:  
+**Priyam Das**  
+[dasp4@vcu.edu](mailto:dasp4@vcu.edu)
+
