@@ -35,6 +35,8 @@ The manuscript introduces:
 | `B-MASTER Demo` | A demonstration of B-MASTER |
 | `images/` | Final versions of key figures used in the manuscript |
 
+
+<!--
 ---
 
 ## 🧮 Figures and Tables in the Paper
@@ -53,7 +55,7 @@ To reproduce the tables and figures presented in the paper, please refer to `BMA
 | **Figure 8-12**  | B-MASTER analysis of microbiome-metabolite interplay  | `Reproducible codes/Real Data Analysis/` |
 | **Tables 1** | Simulation results                       | `Reproducible codes/Simulation Study 1/` |
 | **Tables 2** | Out-of-sample prediction performance                       | `Reproducible codes/Real Data Analysis/Validation on real data/` |
-
+-->
 
 ---
 
