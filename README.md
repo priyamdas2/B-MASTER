@@ -28,9 +28,9 @@ The manuscript introduces:
 
 | Folder | Description |
 |--------|-------------|
-| `Reproducible codes/Real Data Analysis/` | Real data analysis scripts (Figures 2, 7-12; Table 2) |
-| `Reproducible codes/Simulation Study 1/` | Simulation experiments 1 (Figures 5; Table 1) |
-| `Reproducible codes/Simulation Study 2/` | Simulation experiments 2 (Figures 4,6) |
+| `Reproducible codes/Real Data Analysis/` | Real data analysis scripts |
+| `Reproducible codes/Simulation Study 1/` | Simulation experiments 1 |
+| `Reproducible codes/Simulation Study 2/` | Simulation experiments 2 |
 | `Reproducible codes/BMASTER_reproducibility_instructions.pdf` | Full reproduction instructions |
 | `B-MASTER Demo` | A demonstration of B-MASTER |
 | `images/` | Final versions of key figures used in the manuscript |
