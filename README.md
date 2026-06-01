@@ -34,7 +34,7 @@ The manuscript introduces:
 | `Real Data Analysis/` | Real data analysis scripts |
 | `Reproducible codes/Simulation Study 1/` | Simulation experiments 1 |
 | `Reproducible codes/Simulation Study 2/` | Simulation experiments 2 |
-| `Reproducible codes/BMASTER_reproducibility_instructions.pdf` | Full reproduction instructions |
+| `BMASTER_reproducibility_instructions.pdf` | Full reproduction instructions |
 | `B-MASTER Demo` | A demonstration of B-MASTER |
 | `images/` | Final versions of key figures used in the manuscript |
 
@@ -53,7 +53,7 @@ To reproduce the tables and figures presented in the paper, please refer to `BMA
 | **Figure 2**  | Conceptual diagram illustrating `master predictors`    | Concept diagram |
 | **Figure 3**  | B-MASTER scalability  | `Reproducible codes/Simulation Study 2/` |
 | **Figure 4**  | Main simulation study  | `Reproducible codes/Simulation Study 1/` |
-| **Figure 5**  | Data extraction and exploration    | `Real Data Analysis/Data/Yachida_BMASTER/`|
+| **Figure 5**  | Data extraction and exploration    | `Real Data Analysis/Yachida_BMASTER/`|
 | **Figure 6-8**  | B-MASTER analysis of microbiome-metabolite interplay  | `Real Data Analysis/` |
 | **Tables 1** | Simulation results                       | `Reproducible codes/Simulation Study 1/` |
 | **Tables 2** | Simulation results                       | `Reproducible codes/Simulation Study 2/` |
