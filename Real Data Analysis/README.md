@@ -1,4 +1,4 @@
-## Analysis Workflow
+# Real Data Analysis Workflow
 
 The analysis can be reproduced by running the following scripts in order:
 
