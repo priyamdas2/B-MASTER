@@ -4,7 +4,6 @@
 
 2. `Simulation Study 2`: Synthetic high-dimensional simulation study (Section 3.2 in B-MASTER main draft)
 
-3. `Real Data Analysis`: Real data analysis + out-of-sample validation (Sections 5 in B-MASTER main draft)
 
 
 
