@@ -8,4 +8,4 @@ The analysis can be reproduced by running the following scripts in order:
 
 3. Run `7_data_setup_only_healthy.R` to extract datatset (containing same set of X and Y as considered for the CRC subjects) for healthy subjects.
 
-*P.S.* dagbadb
+**P.S.** The raw data file `genera.tsv` and the processed data file `genera_full.csv` are not included in this repository due to their large file sizes.
