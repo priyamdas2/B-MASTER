@@ -35,7 +35,7 @@ The manuscript introduces:
 | `Reproducible codes/Simulation Study 1/` | Simulation experiments 1 |
 | `Reproducible codes/Simulation Study 2/` | Simulation experiments 2 |
 | `BMASTER_reproducibility_instructions.pdf` | Full reproduction instructions |
-| `B-MASTER Demo` | A demonstration of B-MASTER |
+| `B-MASTER Demo/` | A demonstration of B-MASTER |
 | `images/` | Final versions of key figures used in the manuscript |
 
 
