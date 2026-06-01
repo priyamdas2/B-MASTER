@@ -39,7 +39,7 @@ The manuscript introduces:
 | `images/` | Final versions of key figures used in the manuscript |
 
 
-<!--
+
 ---
 
 ## 🧮 Figures and Tables in the Paper
@@ -57,7 +57,7 @@ To reproduce the tables and figures presented in the paper, please refer to `BMA
 | **Figure 6-8**  | B-MASTER analysis of microbiome-metabolite interplay  | `Real Data Analysis/` |
 | **Tables 1** | Simulation results                       | `Reproducible codes/Simulation Study 1/` |
 | **Tables 2** | Simulation results                       | `Reproducible codes/Simulation Study 2/` |
--->
+
 
 ---
 
