@@ -28,7 +28,7 @@ The manuscript introduces:
 
 | Folder | Description |
 |--------|-------------|
-| `Reproducible codes/Real Data Analysis/` | Real data analysis scripts |
+| `Real Data Analysis/` | Real data analysis scripts |
 | `Reproducible codes/Simulation Study 1/` | Simulation experiments 1 |
 | `Reproducible codes/Simulation Study 2/` | Simulation experiments 2 |
 | `Reproducible codes/BMASTER_reproducibility_instructions.pdf` | Full reproduction instructions |
@@ -47,14 +47,13 @@ To reproduce the tables and figures presented in the paper, please refer to `BMA
 | Output        | Description                                | Script Path                            |
 |---------------|--------------------------------------------|----------------------------------------|
 | **Figure 1**  | Influence of gut microbiome on metabolomics in CRC    | Concept diagram |
-| **Figure 2**  | Data extraction and exploration    | `Reproducible codes/Real Data Analysis/Data/Yachida_BMASTER/`|
-| **Figure 3**  | B-MASTER illustration    | Concept diagram |
-| **Figure 4, 6**  | B-MASTER scalability  | `Reproducible codes/Simulation Study 2/` |
-| **Figure 5**  | Main simulation study  | `Reproducible codes/Simulation Study 1/` |
-| **Figure 7**  | Score plots  | `Reproducible codes/Real Data Analysis/Data/Yachida_BMASTER/` |
-| **Figure 8-12**  | B-MASTER analysis of microbiome-metabolite interplay  | `Reproducible codes/Real Data Analysis/` |
+| **Figure 2**  | Conceptual diagram illustrating `master predictors`    | Concept diagram |
+| **Figure 3**  | B-MASTER scalability  | `Reproducible codes/Simulation Study 2/` |
+| **Figure 4**  | Main simulation study  | `Reproducible codes/Simulation Study 1/` |
+| **Figure 5**  | Data extraction and exploration    | `Real Data Analysis/Data/Yachida_BMASTER/`|
+| **Figure 6-8**  | B-MASTER analysis of microbiome-metabolite interplay  | `Real Data Analysis/` |
 | **Tables 1** | Simulation results                       | `Reproducible codes/Simulation Study 1/` |
-| **Tables 2** | Out-of-sample prediction performance                       | `Reproducible codes/Real Data Analysis/Validation on real data/` |
+| **Tables 2** | Simulation results                       | `Reproducible codes/Simulation Study 2/` |
 -->
 
 ---
