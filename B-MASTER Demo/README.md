@@ -1,6 +1,3 @@
-`BMASTER Demo`: A demonstration of B-MASTER.
-
-
 # B-MASTER Demo Code
 
 This repository provides demo MATLAB code (`BMASTER_Demo.m`) for running B-MASTER on paired multivariate datasets `X.csv` and `Y.csv`. The script reads the data, performs a random train/test split, standardizes the training data, runs the MCMC sampler, estimates a sparse coefficient matrix, and evaluates prediction accuracy on the test set using RMSE and MAD.
