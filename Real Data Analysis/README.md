@@ -11,6 +11,6 @@ The analysis can be reproduced by running the following scripts in order:
 7. Run `5_Post_analysis_subset_2_NEW.R` for post-B-MASTER full-fit subset analysis of the second subset, corresponding to differentially abundant metabolites in cancer.
 8. Run `6_CCA_subset_plots.R` to generate CCA decay plots for both subset 1 and subset 2.
 
-## Codes for raw data extraction and exploratory analysis
+## Codes for raw data extraction and exploratory analyses
 
 See README instructions in `Yachida_BMASTER` folder.
