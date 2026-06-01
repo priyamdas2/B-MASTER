@@ -8,7 +8,7 @@ This repository provides the necessary code and documentation for reproducing th
 > *B-MASTER: Scalable Bayesian Multivariate Regression for Master Predictor Discovery in Colorectal Cancer Microbiome-Metabolite Profiles*.  
 > **ArXiv**: [https://arxiv.org/abs/2412.05998](https://arxiv.org/abs/2412.05998)
 
-## Code citation
+## 💻 Code citation
 
 If you use this code, please cite the archived Zenodo release:
 
