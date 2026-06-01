@@ -122,7 +122,7 @@ The plot demonstrates the direction and statistical significance of the relation
 
 ## 🔐 Data Access
 
-Dataset is shared at `Reproducible codes/Real Data Analysis/Data/Yachida_BMASTER/`. The raw dataset was originally shared with the following publication:
+The raw dataset was originally shared with the following publication:
 
 - *Muller et al. (2022)*, ‘The gut microbiome-metabolome dataset collection: a curated resource for integrative meta-analysis’, npj Biofilms and Microbiomes 8(1), 79.
 
