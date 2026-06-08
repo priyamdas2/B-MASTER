@@ -1,5 +1,6 @@
+clear all;
 RandSeed = 1;
-IsRhoNonZero = 0;
+IsRhoNonZero = 1;
 SampleMultFactor = 1;
 P = 20;
 N = P*SampleMultFactor;
@@ -52,11 +53,34 @@ end
 
 Y_raw = X_raw*B_True + normrnd(0,0.1,[N,Q]);
 
-
-
-
 % Transforming X and Y to have (mean = 0, sd = 1)
 [X,Y] = XYraw2XY(X_raw,Y_raw);
+
+%% Save simulated data for external R methods (added during revision)
+
+DataFolder = 'Data';
+
+if(IsRhoNonZero == 1)
+    rhoTag = 'rhoNonZero';
+else
+    rhoTag = 'rhoZero';
+end
+
+dataPrefix = fullfile(DataFolder, ...
+    ['SimData_', rhoTag, ...
+     '_P_', num2str(P), ...
+     '_Q_', num2str(Q), ...
+     '_N_', num2str(N), ...
+     '_Nfactor_', num2str(SampleMultFactor), ...
+     '_Seed_', num2str(RandSeed)]);
+
+csvwrite([dataPrefix, '_X.csv'], X);
+csvwrite([dataPrefix, '_Y.csv'], Y);
+csvwrite([dataPrefix, '_Support_True.csv'], IndicatorNonzeroTrue);
+
+
+
+
 %% MCMC hyper-parameters
 C = ones(P,Q);
 sum_C = sum(C,[1,2]);
